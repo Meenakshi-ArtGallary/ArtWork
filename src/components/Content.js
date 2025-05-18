@@ -7,12 +7,16 @@ import './Content.css';
 
 function Content({ activePage }) {
   return (
-    <main className="content">
-      {activePage === 'home' && <Home />}
-      {activePage === 'main' && <Main />}
-      {activePage === 'tool' && <Tool />}
-      {activePage === 'contact' && <ContactUs />}
-    </main>
+    <div className="content">
+        <div className="content-inner">
+          <main className="content">
+            {activePage === 'home' && <Home />}
+            {activePage === 'main' && <Main />}
+            {activePage === 'tool' && <Tool />}
+            {activePage === 'contact' && <ContactUs />}
+          </main>
+        </div>
+    </div>
   );
 }
 

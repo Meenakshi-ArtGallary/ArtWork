@@ -4,6 +4,12 @@
     background-color: #ffffff; /* Same background color */
   }
   
+  .content-inner {
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
   section {
     margin-bottom: 2rem;
   }
